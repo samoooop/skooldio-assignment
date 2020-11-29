@@ -23,4 +23,8 @@ export class CardDeck {
         n = n ?? 1;
         return this._cards.splice(0, n);
     }
+
+    public get size() {
+        return this._cards.length;
+    }
 }
