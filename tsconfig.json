@@ -1,0 +1,32 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "preserveConstEnums": true,
+        "outDir": "./build",
+        "sourceMap": true,
+        "inlineSources": true,
+        "moduleResolution": "Node",
+        "noEmitOnError": true,
+        "experimentalDecorators": true,
+        "esModuleInterop": true,
+        "target": "es6",
+        "lib": [
+            "es2016",
+        ],
+        "jsx": "react"
+    },
+    "include": [
+        "*.d.ts",
+        "express.d.ts",
+        "index.d.ts",
+        "src/**/*",
+        "test/**/*.ts",
+        "types/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
