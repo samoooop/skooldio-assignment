@@ -1,0 +1,2 @@
+export const cardType: PokDeng.CardType[] = ['ACE', 'TWO', 'THREE', 'FOUR', 'FIVE', 'SIX', 'SEVEN', 'EIGHT', 'NINE', 'TEN', 'JACK', 'QUEEN', 'KING'];
+export const cardSymbol: PokDeng.CardSymbol[] = ['CLUBS', 'DIAMONDS', 'HEARTS', 'SPADES'];
